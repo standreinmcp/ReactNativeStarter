@@ -2,10 +2,10 @@ import {StyleSheet} from 'react-native';
 import {metrics} from '../../../core/themes/';
 import { theme } from '../../../../App';
 
-export const styles = (backgroundProp) =>  StyleSheet.create({
+export const styles =  (theme) => StyleSheet.create({
   container: {
     flex: metrics.size1,
-    backgroundColor: theme.theme,
+    backgroundColor: theme.colors.accent,
     justifyContent: 'center',
     alignItems: 'center',
   },
