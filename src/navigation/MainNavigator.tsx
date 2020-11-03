@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {roots} from '.';
 import {LoginScreen} from '../screens/login';
 import {HomeScreen} from '../screens/home';
+import LoginFigma from '../screens/loginFigma/LoginFigma'
 
 const Stack = createStackNavigator();
 
@@ -14,9 +15,15 @@ const defaultNavigationOptions = () => ({
 
 const MainStackNavigator = () => (
   <NavigationContainer>
+
     <Stack.Navigator
       screenOptions={defaultNavigationOptions}
-      initialRouteName={roots.homeScreen}>
+      initialRouteName={roots.loginFigma}>
+        <Stack.Screen
+        screenOptions={defaultNavigationOptions}
+        name={roots.loginFigma}
+        component={LoginFigma}
+      />
       <Stack.Screen
         screenOptions={defaultNavigationOptions}
         name={roots.loginScreen}

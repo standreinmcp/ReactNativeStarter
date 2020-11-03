@@ -6,7 +6,7 @@ export default StyleSheet.create({
     height: metrics.size40,
     width: '80%',
     borderBottomWidth: metrics.size1,
-    borderBottomColor: colors.white,
+    borderBottomColor: colors.black,
     flexDirection: 'row',
     justifyContent: 'flex-start',
     alignItems: 'center',
@@ -15,7 +15,7 @@ export default StyleSheet.create({
   textStyle: {
     padding: metrics.size0,
     flex: metrics.size1,
-    color: colors.white,
+    color: colors.black,
     fontSize: metrics.size14,
   },
   iconStyle: {

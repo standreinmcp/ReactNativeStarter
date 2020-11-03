@@ -6,8 +6,16 @@ const strings = {
   eyeIcon: 'eye',
   eyeSlashIcon: 'eye-slash',
   none: 'none',
-  email: 'email',
+  email: 'Email',
   LOGIN: 'LOGIN',
+  find: 'Find',
+  home: 'Home',
+  welcome: 'Welcome',
+  loginForEnjoy: 'Login for enjoy findhome',
+  emailVerif: 'emailVerif',
+  password: 'Password',
+  forgotPassword: 'Forgot password?',
+  createNewAccount: 'Create new account'
 };
 
 export default strings;
