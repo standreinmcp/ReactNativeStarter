@@ -13,6 +13,15 @@ const LoginFigma = () => {
   const [password, setPassword] = useState();
   const [hidePassword, setHidePassword] = useState(true);
 
+  const ValidateEmail = (mail)=> 
+  {
+   if (/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(.[a-zA-Z0-9-]+)$/.test(mail))
+    {
+      return (true)
+    }
+      return (false)
+  }
+
   return (
     <ScrollView style={styles.container}>
       <View style={styles.firstContainer}>
@@ -40,7 +49,7 @@ const LoginFigma = () => {
               autoCorrect={false}
               placeholder={strings.email}
             />
-            <Image style={styles.emailVerif} source={ email !=='' ? emailVerif : null} />
+            <Image style={styles.emailVerif} source={ValidateEmail(email) ? emailVerif : null} />
           </View>
           <Text style={styles.passwordText}>{strings.password}</Text>
           <View style={styles.textInputContainer}>
