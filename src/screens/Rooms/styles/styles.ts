@@ -191,7 +191,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   buttonContainer: {
-    width: metrics.size178,
+    // width: '100%',
     height: metrics.size40,
     backgroundColor: 'rgba(70,208,217,1)',
     borderRadius: metrics.size10,
