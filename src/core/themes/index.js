@@ -20,22 +20,21 @@ export {shared} from './images';
 export {comments} from './images';
 export {privacy} from './images';
 export {
-  
-    userPic,
-    userPic2,
-    userPic3,
-    userPic4,
-    locationPin,
-    fullStar,
-    emptyStar,
-    client,
-    chart,
-    dollar,
-    post1,
-    bathrooms,
-    kitchens,
-    bedrooms,
-    post2,
-    post3,
-    post4
-  } from './images';
+  userPic,
+  userPic2,
+  userPic3,
+  userPic4,
+  locationPin,
+  fullStar,
+  emptyStar,
+  client,
+  chart,
+  dollar,
+  post1,
+  bathrooms,
+  kitchens,
+  bedrooms,
+  post2,
+  post3,
+  post4,
+} from './images';

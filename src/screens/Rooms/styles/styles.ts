@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {fonts, metrics} from '../../../core/themes/';
 import {Dimensions} from 'react-native';
+import normalize from 'react-native-normalize';
+
 const {width} = Dimensions.get('window');
 const height = width * 1;
 
@@ -14,7 +16,7 @@ export const styles = StyleSheet.create({
   dotsContainer: {
     flexDirection: 'row',
     position: 'absolute',
-    top: metrics.size309,
+    top: normalize(309),
     alignSelf: 'center',
   },
   dot: {
@@ -179,7 +181,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: metrics.size25,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
   },
   priceText: {
@@ -188,22 +190,21 @@ export const styles = StyleSheet.create({
     lineHeight: metrics.size24,
     letterSpacing: metrics.size0_3Negative,
     color: '#143656',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   buttonContainer: {
-    // width: '100%',
+    width: '100%',
     height: metrics.size40,
     backgroundColor: 'rgba(70,208,217,1)',
     borderRadius: metrics.size10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginRight: metrics.size36,
-
+    marginRight: normalize(36),
   },
   reservedText: {
-    fontSize: metrics.size16,
+    fontSize: normalize(16),
     lineHeight: metrics.size19,
     letterSpacing: metrics.size0_3Negative,
     color: 'white',
-  }
+  },
 });
