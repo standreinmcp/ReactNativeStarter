@@ -6,21 +6,13 @@ import {styles} from './styles';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 import roots from '../../navigation/roots';
+import ValidateEmail from '../../core/helpers/ValidateEmail';
 
 const LoginFigma = () => {
   const navigation = useNavigation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState();
   const [hidePassword, setHidePassword] = useState(true);
-
-  const ValidateEmail = (mail)=> 
-  {
-   if (/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(.[a-zA-Z0-9-]+)$/.test(mail))
-    {
-      return (true)
-    }
-      return (false)
-  }
 
   return (
     <ScrollView style={styles.container}>
@@ -49,7 +41,10 @@ const LoginFigma = () => {
               autoCorrect={false}
               placeholder={strings.email}
             />
-            <Image style={styles.emailVerif} source={ValidateEmail(email) ? emailVerif : null} />
+            <Image
+              style={styles.emailVerif}
+              source={ValidateEmail(email) ? emailVerif : null}
+            />
           </View>
           <Text style={styles.passwordText}>{strings.password}</Text>
           <View style={styles.textInputContainer}>
