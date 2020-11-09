@@ -66,13 +66,14 @@ const LoginFigma = () => {
             onPress={() => navigation.navigate(roots.roomScreen)}>
             <Text style={styles.loginText}>{strings.LOGIN}</Text>
           </TouchableOpacity>
-          <View style={styles.bottomContainer}>
+         
+        </View>
+        <View style={styles.bottomContainer}>
             <Text style={styles.fotgotPassword}>{strings.forgotPassword}</Text>
             <Text style={styles.createNewAccount}>
               {strings.createNewAccount}
             </Text>
           </View>
-        </View>
       </View>
     </ScrollView>
   );

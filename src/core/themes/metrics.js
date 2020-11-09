@@ -58,6 +58,7 @@ const metrics = {
   size26: 26,
   size27: 27,
   size28: 28,
+  size29_5: 29.5,
   size30: 30,
   size31: 31,
   size32: 32,

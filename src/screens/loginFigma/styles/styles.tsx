@@ -122,16 +122,19 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingBottom: metrics.size40,
+    backgroundColor: 'white',
   },
   fotgotPassword: {
     fontSize: metrics.size14,
     lineHeight: metrics.size17,
-    color: 'rgba(0,0,0,0.8)'
+    color: 'rgba(0,0,0,0.8)',
+    marginLeft: metrics.size29_5
   },
   createNewAccount: {
     fontSize: metrics.size14,
     lineHeight: metrics.size17,
     color: 'rgb(19, 73, 123)',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    marginRight: metrics.size29_5
   }
 });
