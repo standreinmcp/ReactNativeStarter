@@ -21,6 +21,8 @@ import {strings} from '../../core/constants'
 import  styles  from './styles/styles';
 import { TouchableOpacity, ScrollView } from 'react-native-gesture-handler';
 import {Card} from '../../core/components';
+import roots from '../../navigation/roots';
+
 
 const currentUser = {
   name: "Timmy bremor",
@@ -128,7 +130,7 @@ const AccountScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.root}>
       <ScrollView style={styles.rootScroll}>
-        <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <TouchableOpacity style={styles.backButton} onPress={() => navigation.navigate(roots.loginFigma)}>
           <Image source={back} height={16} />
         </TouchableOpacity>
         <View style={styles.userView}>
