@@ -61,7 +61,7 @@ export default StyleSheet.create({
         fontSize: metrics.size20,
         lineHeight: metrics.size24,
         color: colors.blueZodiac,
-        fontWeight: '500',
+        fontWeight: 'bold',
         marginRight: metrics.size35,
     },
     marginRightRooms: {

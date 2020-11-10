@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {fonts, metrics} from '../../../core/themes/';
+import {colors, fonts, metrics} from '../../../core/themes/';
 import {Dimensions} from 'react-native';
 import normalize from 'react-native-normalize';
 
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   locationText: {
-    color: 'rgba(20,54,86,1)',
+    color: colors.cyanblue,
     fontSize: metrics.size11,
     lineHeight: metrics.size13,
     marginLeft: metrics.size4,
@@ -81,7 +81,7 @@ export const styles = StyleSheet.create({
   specialHouseText: {
     fontSize: metrics.size26,
     lineHeight: metrics.size31,
-    color: 'rgba(20,54,86,1)',
+    color: colors.cyanblue,
     marginTop: metrics.size6,
     fontWeight: 'bold',
     letterSpacing: metrics.size0_3Negative,

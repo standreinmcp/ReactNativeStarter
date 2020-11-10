@@ -16,12 +16,15 @@ const FieldInput = ({
   autoCorrect,
   autoCompleteType,
   onPressRightIcon,
+  iconColor,
+  placeholderColor
 }) => {
   return (
     <View style={FieldInputStyles.container}>
+      
       <Icon
         name={leftIconName}
-        color={colors.white}
+        color={iconColor}
         size={metrics.size20}
         style={FieldInputStyles.iconStyle}
       />
@@ -29,7 +32,7 @@ const FieldInput = ({
         onChangeValue={onChangeValue}
         value={value}
         placeholder={placeholder}
-        placeholderTextColor={colors.white}
+        placeholderTextColor={placeholderColor}
         secureTextEntry={secureTextEntry}
         textContentType={textContentType}
         style={FieldInputStyles.textStyle}
@@ -40,7 +43,7 @@ const FieldInput = ({
       <TouchableOpacity onPress={onPressRightIcon}>
         <Icon
           name={rightIconName}
-          color={colors.white}
+          color={iconColor}
           size={metrics.size20}
           style={FieldInputStyles.iconStyle}
         />

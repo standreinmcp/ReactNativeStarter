@@ -33,4 +33,17 @@ export const post4 = require('../../../assets/post4.jpg');
 export const bedrooms = require('../../../assets/bedrooms.png');
 export const bathrooms = require('../../../assets/bathrooms.png');
 export const kitchens = require('../../../assets/kitchens.png');
+export const arrowDown = require('../../../assets/arrowDown.png');
+export const notificationBell = require('../../../assets/notificationBell.png');
+export const settings = require('../../../assets/settings.png');
+export const menu = require('../../../assets/menu.png');
+export const btn1 = require('../../../assets/btn1.png');
+export const btn2 = require('../../../assets/btn2.png');
+export const btn3 = require('../../../assets/btn3.png');
+export const btn4 = require('../../../assets/btn4.png');
+
+
+
+
+
 

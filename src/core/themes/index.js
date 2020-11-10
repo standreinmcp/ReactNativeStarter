@@ -37,4 +37,12 @@ export {
   post2,
   post3,
   post4,
+  arrowDown,
+  notificationBell,
+  settings,
+  menu,
+  btn1,
+  btn2,
+  btn3,
+  btn4
 } from './images';

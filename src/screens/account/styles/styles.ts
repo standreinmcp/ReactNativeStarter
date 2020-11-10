@@ -67,7 +67,7 @@ export default StyleSheet.create({
   findHomeText: {
     fontSize: metrics.size20,
     lineHeight: metrics.size24,
-    fontWeight: '500',
+    fontWeight: 'bold',
     color: colors.blueZodiac,
   },
   findHomeScrollView: {
@@ -95,8 +95,9 @@ export default StyleSheet.create({
     marginBottom: metrics.size8,
     fontSize: metrics.size12,
     lineHeight: metrics.size14,
-    fontWeight: '500',
+    fontWeight: 'bold',
     color: colors.blueZodiac,
+    // marginTop: metrics.size13,
   },
   spaceEvenly: {
     justifyContent: 'space-evenly',
@@ -125,7 +126,7 @@ export default StyleSheet.create({
   postText: {
     fontSize: metrics.size20,
     lineHeight: metrics.size24,
-    fontWeight: '500',
+    fontWeight: 'bold',
     color: colors.blueZodiac,
     marginLeft: metrics.size20,
   },

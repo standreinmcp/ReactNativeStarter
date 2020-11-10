@@ -3,14 +3,24 @@ import {metrics, colors} from '../../themes/';
 
 export default StyleSheet.create({
   container: {
-    height: metrics.size40,
-    width: '80%',
-    borderBottomWidth: metrics.size1,
-    borderBottomColor: colors.black,
+    marginHorizontal: metrics.size20,
+    backgroundColor: colors.white,
     flexDirection: 'row',
     justifyContent: 'flex-start',
     alignItems: 'center',
-    marginBottom: metrics.size20,
+    marginBottom: metrics.size19,
+    paddingVertical: metrics.size17,
+    paddingHorizontal: metrics.size24,
+    borderRadius: metrics.size10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: metrics.size0,
+      height: metrics.size2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: metrics.size5,
   },
   textStyle: {
     padding: metrics.size0,

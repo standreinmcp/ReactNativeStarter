@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {fonts, metrics} from '../../../core/themes/';
+import {fonts, metrics, colors} from '../../../core/themes/';
 
 export const styles = StyleSheet.create({
   container: {
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
     marginTop: metrics.size137,
     fontSize: metrics.size40,
     lineHeight: metrics.size47,
-    color: 'rgb(19, 73, 123)',
+    color: colors.darkCerulean,
     fontWeight: 'bold',
     textAlign: 'center',
   },
@@ -95,7 +95,7 @@ export const styles = StyleSheet.create({
     marginRight: metrics.size14,
   },
   loginButton: {
-    backgroundColor: 'rgb(19, 73, 123)',
+    backgroundColor: colors.darkCerulean,
     height: metrics.size55,
     marginTop: metrics.size41,
     width: '100%',
@@ -133,7 +133,7 @@ export const styles = StyleSheet.create({
   createNewAccount: {
     fontSize: metrics.size14,
     lineHeight: metrics.size17,
-    color: 'rgb(19, 73, 123)',
+    color: colors.darkCerulean,
     fontWeight: 'bold',
     marginRight: metrics.size29_5
   }

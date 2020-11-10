@@ -30,7 +30,15 @@ const strings = {
   description: 'Description',
   loremIpsum: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus condimentum nulla diam proin quis commodo malesuada. Dolor morbi egestas consectetur egestas aliquam tellus. Accumsan tristique consequat nec cras commodo et orci ipsum, convallis. Lectus nibh ut eget quis quis praesent pellentesque. Molestie a id potenti vivamus blandit aliquet iaculis sed. Amet ut rutrum mauris gravida pellentesque eget in in potenti.',
   price: '$1500 usd',
-  reservedNow: 'Reserved now!'
+  reservedNow: 'Reserved now!',
+  estadistics: 'Estadistics',
+  findHomeGold: 'FindHome Gold',
+  salesComplete: 'sales Complete',
+  clients: 'clients',
+  moreInfo: 'View more info',
+  post: 'Post',
+  hello: 'Hello',
+  startLookingForYourHouse: 'Start looking for your house'
 };
 
 export default strings;

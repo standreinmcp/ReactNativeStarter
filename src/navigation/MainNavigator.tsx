@@ -7,6 +7,7 @@ import {HomeScreen} from '../screens/home';
 import LoginFigma from '../screens/loginFigma/LoginFigma'
 import RoomScreen from '../screens/Rooms/RoomScreen';
 import AccountScreen from '../screens/account/AccountScreen'
+import HomeFigma from '../screens/homeFigma/HomeFigma';
 
 const Stack = createStackNavigator();
 
@@ -20,11 +21,16 @@ const MainStackNavigator = () => (
 
     <Stack.Navigator
       screenOptions={defaultNavigationOptions}
-      initialRouteName={roots.accountScreen}>
+      initialRouteName={roots.homeFigma}>
         <Stack.Screen
         screenOptions={defaultNavigationOptions}
         name={roots.loginFigma}
         component={LoginFigma}
+      />
+       <Stack.Screen
+        screenOptions={defaultNavigationOptions}
+        name={roots.homeFigma}
+        component={HomeFigma}
       />
        <Stack.Screen
         screenOptions={defaultNavigationOptions}
